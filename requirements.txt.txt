@@ -1,9 +1,0 @@
-catboost
-dash
-dash_iconify
-openai
-pandas
-plotly
-scikit_learn
-gunicorn
-dash-tools
