@@ -1,0 +1,64 @@
+@keyframes moveLeft {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+@keyframes moveRight {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+@keyframes moveRight2 {
+    from {
+        transform: translateX(-20px) rotate(30deg);
+    }
+    to {
+        transform: translateX(0px) rotate(30deg);
+    }
+}
+@keyframes happy {
+    to {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 85px;
+        border-bottom-right-radius: 85px;
+        width: 50%;
+        background-color: pink;
+    }
+}
+@keyframes dissapear {
+    to {
+        display: none;
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0px rgba(74, 27, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(74, 27, 0, 0);
+    }
+}
+div#monster {
+    animation: moveLeft 1.5s ease-out forwards;
+}
+
+.speech {
+    animation: moveRight 1.5s ease-out forwards;
+}
+
+#speech1:after {
+    animation: moveRight2 1.5s ease-out forwards;
+}
+
+#btn_download {
+    animation: pulse 2s infinite;
+}

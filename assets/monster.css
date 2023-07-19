@@ -1,0 +1,55 @@
+div#monster {
+    margin : 50px;
+    height: 250px;
+    width:350px;
+    background-color: rgb(171, 183, 89);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+div#eyes {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(160, 39, 39);
+    position: relative;
+    top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+}
+
+div.eye {
+    height: 50px;
+    aspect-ratio: 1;
+    background-color: rgb(239, 239, 239);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#left_eye, div#right_eye {
+    width:10px;
+    aspect-ratio: 1;
+    background-color: black;
+    border-radius: 50%;
+    border: 5px solid rgb(84, 178, 225);
+    position: relative;
+}
+
+div#mouth, div#mouth2 {
+    background-color: rgb(248, 237, 237);
+    height: 70px;
+    width: 60%;
+    position: relative;
+    top: 80px;
+    border-bottom: 15px solid rgb(198, 21, 21);
+    border-radius: 10px;
+}
