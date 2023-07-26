@@ -25,7 +25,7 @@ Once you have provided your api key and a csv, we send a prompt to chat_gpt with
 
 ![!img_2](imgs/tuto_2.PNG)
 
-In our example, we are using a titanic dataset. As our assistant adivses us, we will predict the variable "survived" which is a classification problem so we select the right things before we click on the <code>train model</code> button. If you try to use regression on string variables, it will not work and you'll have to refresh the page, that's why it's important to follow "Jasper's" advices is you are not sure about what to do.
+In our example, we are using a titanic dataset. As our assistant adivses us, we will predict the variable "survived" which is a classification problem so we select the right things before we click on the <code>train model</code> button. If you try to use regression on string variables, it will not work and you'll have to refresh the page, that's why it's important to follow "Jasper's" advices if you are not sure about what to do.
 
 To train the model, I have decided to use the catboost algorithm which is one of the most powerful tool in machine learning. I decided to use catboost because it can handle very well categorical features. XGBoost would also have been a great option.
 For this application, the purpose is to help someone that doesn't know anything about machine learning to understand the data and be able to predict things by himself. That's why I favored <b>speed</b> over <b>performance</b>.
